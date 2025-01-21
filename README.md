@@ -1,14 +1,14 @@
-# GraphIndex
+# Knowledge Graph Agents
 
-GraphIndex is an open-source project that provides semantic mapping of table columns to ontology terms. It enables users to map table columns to terms in an ontology, with the default ontology being `schema.org`. The project uses a vector index generated with Llama Index, which is then utilized by LLM (Llama Mapping) to produce the mappings.
+Knowledge Graph Agents is a project that provides semantic mapping of table columns to ontology terms. It enables users to map table columns to terms in an ontology, with the default ontology being `schema.org`. The project uses a vector index generated with Llama Index, which is then utilized by LLM (Llama Mapping) to produce the mappings.
 
 ## Installation and Setup
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/graphindex.git
-cd graphindex
+git clone https://github.com/yourusername/knowledge-graph-agents.git
+cd knowledge-graph-agents
 ```
 
 2. Create a virtual environment and activate it:
@@ -57,7 +57,7 @@ from src.graphindex.common.enumerations import IndexType
 mapper = SemanticMapper(
     ontology_source_dir='<path_to_local_ontology>',
     index_output_dir='<path_to_store_index>',
-    openai_model='gpt-3.5-turbo-16k',
+    openai_model='gpt-4o-mini',
     index_type=IndexType.VECTOR
 )
 ```
