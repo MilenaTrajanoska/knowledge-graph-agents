@@ -1,0 +1,319 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example_db.org#Products1> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Spices" ;
+    schema:color 4 ;
+    schema:description "et" ;
+    schema:name "cumin" ;
+    schema:offers 2.8783e+03,
+        "NaN"^^xsd:double ;
+    schema:productID 1 .
+
+<http://example_db.org#Products10> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Seeds" ;
+    schema:color 5 ;
+    schema:description "et" ;
+    schema:name "flax" ;
+    schema:offers 5.962263e+07,
+        3.394044e+08 ;
+    schema:productID 10 .
+
+<http://example_db.org#Products11> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 7 ;
+    schema:description "minus" ;
+    schema:name "chervil" ;
+    schema:offers "NaN"^^xsd:double ;
+    schema:productID 11 .
+
+<http://example_db.org#Products12> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Seeds" ;
+    schema:color 4 ;
+    schema:description "officia" ;
+    schema:name "voluptatem" ;
+    schema:offers 1.49e+02,
+        1.62e+02 ;
+    schema:productID 12 .
+
+<http://example_db.org#Products13> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Spices" ;
+    schema:color 5 ;
+    schema:description "nisi" ;
+    schema:name "cinnam" ;
+    schema:offers 1.686539e+06,
+        1.759511e+07 ;
+    schema:productID 13 .
+
+<http://example_db.org#Products14> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Seeds" ;
+    schema:color 4 ;
+    schema:description "exercitationem" ;
+    schema:name "lotus" ;
+    schema:offers 6.358941e+04,
+        4.322131e+07 ;
+    schema:productID 14 .
+
+<http://example_db.org#Products15> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 2 ;
+    schema:description "ut" ;
+    schema:name "laurel" ;
+    schema:offers 5.7857e+04,
+        "NaN"^^xsd:double ;
+    schema:productID 15 .
+
+<http://example_db.org#Products2> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Spices" ;
+    schema:color 2 ;
+    schema:description "rerum" ;
+    schema:name "peper" ;
+    schema:offers 3.524473e+05,
+        1.89207e+06 ;
+    schema:productID 2 .
+
+<http://example_db.org#Products3> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 9 ;
+    schema:description "officia" ;
+    schema:name "basil" ;
+    schema:offers 1.859512e-01,
+        5.038432e+02 ;
+    schema:productID 3 .
+
+<http://example_db.org#Products4> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 1 ;
+    schema:description "blanditiis" ;
+    schema:name "borage" ;
+    schema:offers 1.037761e+07,
+        "NaN"^^xsd:double ;
+    schema:productID 4 .
+
+<http://example_db.org#Products5> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Spices" ;
+    schema:color 4 ;
+    schema:description "eius" ;
+    schema:name "chili" ;
+    schema:offers 3.9446e+04,
+        "NaN"^^xsd:double ;
+    schema:productID 5 .
+
+<http://example_db.org#Products6> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Seeds" ;
+    schema:color 4 ;
+    schema:description "doloribus" ;
+    schema:name "ginger" ;
+    schema:offers 5.578e+00,
+        5.273561e+04 ;
+    schema:productID 6 .
+
+<http://example_db.org#Products7> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Seeds" ;
+    schema:color 9 ;
+    schema:description "et" ;
+    schema:name "sesame" ;
+    schema:offers 1.284268e+06,
+        6.820583e+07 ;
+    schema:productID 7 .
+
+<http://example_db.org#Products8> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 9 ;
+    schema:description "nulla" ;
+    schema:name "caraway" ;
+    schema:offers "NaN"^^xsd:double,
+        2.4493e+04 ;
+    schema:productID 8 .
+
+<http://example_db.org#Products9> a schema:Product ;
+    schema:additionalType "NaN"^^xsd:double ;
+    schema:category "Herbs" ;
+    schema:color 2 ;
+    schema:description "vel" ;
+    schema:name "catnip" ;
+    schema:offers 2.157789e+04,
+        1.20087e+07 ;
+    schema:productID 9 .
+
+<http://example_db.org#Ref_Characteristic_TypesGrade> a schema:QualitativeValue ;
+    schema:QualitativeValue "Grade" .
+
+<http://example_db.org#Ref_Characteristic_TypesPurity> a schema:QualitativeValue ;
+    schema:QualitativeValue "Purity" .
+
+<http://example_db.org#Ref_Product_CategoriesHerbs> a schema:CategoryCode ;
+    schema:DefinedTerm "Herbs" ;
+    schema:QuantitativeValue "Handful             " ;
+    schema:hasCategoryCode "Herbs" .
+
+<http://example_db.org#Ref_Product_CategoriesSeeds> a schema:CategoryCode ;
+    schema:DefinedTerm "Seeds" ;
+    schema:QuantitativeValue "Weight - pound,kilo." ;
+    schema:hasCategoryCode "Seeds" .
+
+<http://example_db.org#Ref_Product_CategoriesSpices> a schema:CategoryCode ;
+    schema:DefinedTerm "Spices" ;
+    schema:QuantitativeValue "Weight - pound,kilo." ;
+    schema:hasCategoryCode "Spices" .
+
+<http://example_db.org#district1> a schema:Place ;
+    schema:City "Attock City" ;
+    schema:area 2e+01 ;
+    schema:identifier 1 ;
+    schema:name "Attock District" .
+
+<http://example_db.org#district10> a schema:Place ;
+    schema:City "Gujrat City" ;
+    schema:area 2.5e+01 ;
+    schema:identifier 10 ;
+    schema:name "Gujrat District" .
+
+<http://example_db.org#district12> a schema:Place ;
+    schema:City "Jhang City" ;
+    schema:area 2.8e+01 ;
+    schema:identifier 12 ;
+    schema:name "Jhang District" .
+
+<http://example_db.org#district13> a schema:Place ;
+    schema:City "Jhelum City" ;
+    schema:area 2.2e+01 ;
+    schema:identifier 13 ;
+    schema:name "Jhelum District" .
+
+<http://example_db.org#district14> a schema:Place ;
+    schema:City "Kasur City" ;
+    schema:area 1.8e+01 ;
+    schema:identifier 14 ;
+    schema:name "Kasur District" .
+
+<http://example_db.org#district2> a schema:Place ;
+    schema:City "Bahawalnagar City" ;
+    schema:area 1.3e+01 ;
+    schema:identifier 2 ;
+    schema:name "Bahawalnagar District" .
+
+<http://example_db.org#district5> a schema:Place ;
+    schema:City "Chakwal City" ;
+    schema:area 1e+01 ;
+    schema:identifier 5 ;
+    schema:name "Chakwal District" .
+
+<http://example_db.org#district6> a schema:Place ;
+    schema:City "Chiniot City" ;
+    schema:area 1.2e+01 ;
+    schema:identifier 6 ;
+    schema:name "Chiniot District" .
+
+<http://example_db.org#district7> a schema:Place ;
+    schema:City "Dera Ghazi Khan City" ;
+    schema:area 2.2e+01 ;
+    schema:identifier 7 ;
+    schema:name "Dera Ghazi Khan District" .
+
+<http://example_db.org#district8> a schema:Place ;
+    schema:City "Faisalabad City" ;
+    schema:area 1.47e+02 ;
+    schema:identifier 8 ;
+    schema:name "Faisalabad District" .
+
+<http://example_db.org#district9> a schema:Place ;
+    schema:City "Gujranwala City" ;
+    schema:area 7.5e+01 ;
+    schema:identifier 9 ;
+    schema:name "Gujranwala District" .
+
+<http://example_db.org#sales_details1.0> schema:orderNumber <http://example_db.org#sales_header1.0>,
+        <http://example_db.org#sales_header2.0> ;
+    schema:orderedItem <http://example_db.org#Products1.0> .
+
+<http://example_db.org#sales_details2.0> schema:orderNumber <http://example_db.org#sales_header3.0> ;
+    schema:orderedItem <http://example_db.org#Products2.0> .
+
+<http://example_db.org#sales_details3.0> schema:orderNumber <http://example_db.org#sales_header4.0>,
+        <http://example_db.org#sales_header5.0> ;
+    schema:orderedItem <http://example_db.org#Products3.0> .
+
+<http://example_db.org#store1> a schema:Store ;
+    schema:Store "City Mall" ;
+    schema:areaServed 1.7984e+02 ;
+    schema:identifier 1 ;
+    schema:location <http://example_db.org#district15> ;
+    schema:name "Miramichi" ;
+    schema:numberOfItems 1.7811e+04 ;
+    schema:ratingValue 2 .
+
+<http://example_db.org#store2> a schema:Store ;
+    schema:Store "Village Store" ;
+    schema:areaServed 2.669e+01 ;
+    schema:identifier 2 ;
+    schema:location <http://example_db.org#district15> ;
+    schema:name "Neguac" ;
+    schema:numberOfItems 1.678e+03 ;
+    schema:ratingValue 3 .
+
+<http://example_db.org#store3> a schema:Store ;
+    schema:Store "Village Store" ;
+    schema:areaServed 7.23e+00 ;
+    schema:identifier 3 ;
+    schema:location <http://example_db.org#district11> ;
+    schema:name "Rogersville" ;
+    schema:numberOfItems 1.17e+03 ;
+    schema:ratingValue 1 .
+
+<http://example_db.org#store4> a schema:Store ;
+    schema:Store "Village Store" ;
+    schema:areaServed 2.173e+01 ;
+    schema:identifier 4 ;
+    schema:location <http://example_db.org#district4> ;
+    schema:name "Blackville" ;
+    schema:numberOfItems 9.9e+02 ;
+    schema:ratingValue 10 .
+
+<http://example_db.org#store5> a schema:Store ;
+    schema:Store "City Mall" ;
+    schema:areaServed 2.874e+01 ;
+    schema:identifier 5 ;
+    schema:location <http://example_db.org#district3> ;
+    schema:name "Doaktown" ;
+    schema:numberOfItems 7.93e+02 ;
+    schema:ratingValue 9 .
+
+<http://example_db.org#district11> a schema:Place ;
+    schema:City "Hafizabad City" ;
+    schema:area 1e+01 ;
+    schema:identifier 11 ;
+    schema:name "Hafizabad District" .
+
+<http://example_db.org#district3> a schema:Place ;
+    schema:City "Bahawalpur City" ;
+    schema:area 3.8e+01 ;
+    schema:identifier 3 ;
+    schema:name "Bahawalpur District" .
+
+<http://example_db.org#district4> a schema:Place ;
+    schema:City "Bhakkar City" ;
+    schema:area 1.5e+01 ;
+    schema:identifier 4 ;
+    schema:name "Bhakkar District" .
+
+<http://example_db.org#district15> a schema:Place ;
+    schema:City "Khanewal City" ;
+    schema:area 1.7e+01 ;
+    schema:identifier 15 ;
+    schema:name "Khanewal District" .
+
